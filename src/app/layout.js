@@ -1,3 +1,5 @@
+import Navigation from "../components/Navigation";
+
 export const metadata = {
   title: "Safal Neupane",
   description: "Full-stack developer",
@@ -9,7 +11,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }
