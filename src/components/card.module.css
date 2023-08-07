@@ -1,0 +1,37 @@
+/* card.module.css */
+
+.card {
+  width: 26%;
+  margin-top: 20px;
+}
+
+.cardTitle {
+  margin: 0;
+}
+
+.image {
+  border-radius: 20px;
+}
+
+.techUsed {
+  display: flex;
+  gap: 3px;
+}
+
+.tech {
+  margin: 5px 0 0 5px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: lightgray;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+}
+
+.cardSubtitle {
+  color: gray;
+}
+
+.cardBtns {
+  display: flex;
+  justify-content: space-around;
+}

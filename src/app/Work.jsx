@@ -2,6 +2,10 @@
 
 import Image from "next/image";
 
+import Card from "../components/Card";
+
+import styles from "./work.module.css";
+
 export default function Work() {
   const myProjects = [
     {
@@ -35,33 +39,15 @@ export default function Work() {
   ];
 
   return (
-    <section>
-      <h1>Work</h1>
-      <p>
-        Check my personal professional projects. If you have any questions feel
-        free to contact me for more information.
+    <section className="section">
+      <h1 className="sectionTitle">Work</h1>
+      <p className="sectionSubtitle">
+        Check my personal and professional projects. If you have any questions
+        feel free to contact me for more information.
       </p>
-      <div>
+      <div className={styles.worklist}>
         {myProjects.map((project) => (
-          <div key={project.name}>
-            <Image
-              src={project.imageUrl}
-              alt="project image"
-              width="200"
-              height="200"
-            />
-            <h1>{project.name}</h1>
-            <div>
-              {project.techUsed.map((tech) => (
-                <h4 key={tech}>{tech}</h4>
-              ))}
-            </div>
-            <p>{project.description}</p>
-            <div>
-              <a href="#">Preview</a>
-              <a href="#">GitHub</a>
-            </div>
-          </div>
+          <Card project={project} key={project.name} />
         ))}
       </div>
     </section>
