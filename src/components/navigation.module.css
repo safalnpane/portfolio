@@ -4,6 +4,7 @@
   width: 90%;
   height: 10vh;
   margin: 0 auto;
+  margin-top: 20px;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -11,10 +12,18 @@
 
 .brand {
   font-weight: normal;
+  font-size: 30px;
+  margin: 0;
 }
 
 .navLink {
   text-decoration: none;
   color: black;
-  padding-left: 10px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.faicon {
+  width: 20px;
+  margin-bottom: -5px;
 }

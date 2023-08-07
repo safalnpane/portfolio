@@ -13,21 +13,21 @@ export default function Work() {
     },
     {
       imageUrl: "/heroImage.jpeg",
-      name: "CalcApp",
+      name: "CalcApp1",
       description:
         "Calculator app made with Angular. This project was generated with Angular CLI version 11.1.1",
       techUsed: ["Java", "Spring", "HTML&CSS"],
     },
     {
       imageUrl: "/heroImage.jpeg",
-      name: "CalcApp",
+      name: "CalcApp2",
       description:
         "Calculator app made with Angular. This project was generated with Angular CLI version 11.1.1",
       techUsed: ["Java", "Spring", "HTML&CSS"],
     },
     {
       imageUrl: "/heroImage.jpeg",
-      name: "CalcApp",
+      name: "CalcApp3",
       description:
         "Calculator app made with Angular. This project was generated with Angular CLI version 11.1.1",
       techUsed: ["Java", "Spring", "HTML&CSS"],

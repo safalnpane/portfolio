@@ -1,5 +1,8 @@
 // Navigation.jsx
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faBlog } from "@fortawesome/free-solid-svg-icons";
 import styles from "./navigation.module.css";
 
 export default function Navigation() {
@@ -19,13 +22,13 @@ export default function Navigation() {
       </div>
       <div>
         <a href="#" className={styles.navLink}>
-          GitHub
+          <FontAwesomeIcon className={styles.faicon} icon={faGithub} />
         </a>
         <a href="#" className={styles.navLink}>
-          Linkedin
+          <FontAwesomeIcon className={styles.faicon} icon={faLinkedin} />
         </a>
         <a href="#" className={styles.navLink}>
-          Blog
+          <FontAwesomeIcon className={styles.faicon} icon={faBlog} />
         </a>
       </div>
     </nav>
