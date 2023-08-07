@@ -9,32 +9,48 @@ import styles from "./work.module.css";
 export default function Work() {
   const myProjects = [
     {
-      imageUrl: "/heroImage.jpeg",
-      name: "CalcApp",
+      imageUrl: "/aspeed.png",
+      name: "Aspeed",
       description:
-        "Calculator app made with Angular. This project was generated with Angular CLI version 11.1.1",
-      techUsed: ["Java", "Spring", "HTML&CSS"],
+        "An online platform for students to learn, practice, and attend tests. The paltfom also supports real-time online tests.",
+      techUsed: [
+        "React",
+        "Django",
+        "AWS",
+        "PostgreSQL",
+        "HTML&CSS",
+        "TailwindCSS",
+        "REST API",
+      ],
+    },
+    {
+      imageUrl: "/aspeed.png",
+      name: "Tasky",
+      description:
+        "Task management, chat, and tracking platform for a manufacturing plant. With admin and staff management.",
+      techUsed: [
+        "React",
+        "Express",
+        "Nodejs",
+        "MongoDb",
+        "HTML&CSS",
+        "Bootstrap",
+        "REST API",
+      ],
     },
     {
       imageUrl: "/heroImage.jpeg",
-      name: "CalcApp1",
+      name: "Lockpick Games",
       description:
-        "Calculator app made with Angular. This project was generated with Angular CLI version 11.1.1",
-      techUsed: ["Java", "Spring", "HTML&CSS"],
+        "Server creation and deployment for hosting games. A Python script to automate web-based game hosting in AWS environment.",
+      techUsed: ["Python", "AWS", "REST API", "Linux"],
     },
     {
       imageUrl: "/heroImage.jpeg",
-      name: "CalcApp2",
+      name: "Portfolio",
       description:
-        "Calculator app made with Angular. This project was generated with Angular CLI version 11.1.1",
-      techUsed: ["Java", "Spring", "HTML&CSS"],
-    },
-    {
-      imageUrl: "/heroImage.jpeg",
-      name: "CalcApp3",
-      description:
-        "Calculator app made with Angular. This project was generated with Angular CLI version 11.1.1",
-      techUsed: ["Java", "Spring", "HTML&CSS"],
+        "My portfolio site to showcase my skills and projects. This project was created using NextJs version 13.",
+      techUsed: ["NextJs", "HTML&CSS"],
     },
   ];
 
