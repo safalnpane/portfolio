@@ -16,9 +16,11 @@ export default function Skills() {
   ];
 
   return (
-    <section>
-      <h1>Skills</h1>
-      <p>I&apos;m well versed in following tools and technologies.</p>
+    <section className="section">
+      <h1 className="sectionTitle">Skills</h1>
+      <p className="sectionSubtitle">
+        I&apos;m well versed in following tools and technologies.
+      </p>
       <div>
         {mySkills.map((skill) => (
           <h4 key={skill}>{skill}</h4>
