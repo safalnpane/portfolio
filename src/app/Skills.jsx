@@ -1,5 +1,8 @@
 // Skills.jsx
-import React from "react";
+
+import TechPill from "../components/TechPill";
+
+import styles from "./skill.module.css";
 
 export default function Skills() {
   const mySkills = [
@@ -21,9 +24,9 @@ export default function Skills() {
       <p className="sectionSubtitle">
         I&apos;m well versed in following tools and technologies.
       </p>
-      <div>
+      <div className={styles.skillList}>
         {mySkills.map((skill) => (
-          <h4 key={skill}>{skill}</h4>
+          <TechPill key={skill} name={skill} />
         ))}
       </div>
     </section>
