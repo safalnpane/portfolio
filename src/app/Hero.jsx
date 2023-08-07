@@ -23,9 +23,13 @@ export default function Hero() {
             years of commercial experience and I specialize in creating web
             apps. I&apos;m open for intresting projects and new opportunities.
           </p>
-          <div>
-            <a href="#">Contact Me</a>
-            <a href="#">My Resume</a>
+          <div className={styles.buttons}>
+            <a href="#" className="button">
+              Contact Me
+            </a>
+            <a href="#" className={"button " + styles.resumeButton}>
+              My Resume
+            </a>
           </div>
         </div>
       </div>

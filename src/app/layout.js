@@ -1,6 +1,11 @@
 // layout.js
+import { Inter } from "next/font/google";
+
 import Navigation from "../components/Navigation";
+
 import "./global.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Safal Neupane",
@@ -13,7 +18,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body>
+      <body className={inter.className}>
         <Navigation />
         {children}
       </body>
