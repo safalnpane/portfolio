@@ -1,3 +1,4 @@
+// layout.js
 import Navigation from "../components/Navigation";
 
 export const metadata = {

@@ -1,7 +1,15 @@
+// page.jsx
+
+import Hero from "./Hero";
+import Skills from "./Skills";
+import Work from "./Work";
+
 export default function Home() {
   return (
-    <section>
-      <h1>Hello, world</h1>
-    </section>
+    <main>
+      <Hero />
+      <Skills />
+      <Work />
+    </main>
   );
 }
