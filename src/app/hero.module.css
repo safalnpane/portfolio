@@ -1,0 +1,29 @@
+/* hero.module.css */
+
+.container {
+  display: flex;
+  gap: 5%;
+}
+
+.heroImage {
+  border-radius: 20px;
+}
+
+.heroText {
+  padding-top: 10%;
+}
+
+.heroHeading {
+  font-size: 40px;
+  margin: 0;
+}
+
+.highlight {
+  background-color: black;
+  color: white;
+  font-size: 38px;
+}
+
+.heroSubtitle {
+  color: gray;
+}

@@ -1,5 +1,6 @@
 // layout.js
 import Navigation from "../components/Navigation";
+import "./global.css";
 
 export const metadata = {
   title: "Safal Neupane",
