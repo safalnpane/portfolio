@@ -1,13 +1,32 @@
 // Navigation.jsx
 
+import styles from "./navigation.module.css";
+
 export default function Navigation() {
   return (
-    <nav>
-      <h1>SN</h1>
+    <nav className={styles.navbar}>
+      <h1 className={styles.brand}>SN</h1>
       <div>
-        <a href="#">Home</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact</a>
+        <a href="#" className={styles.navLink}>
+          Home
+        </a>
+        <a href="#" className={styles.navLink}>
+          Resume
+        </a>
+        <a href="#" className={styles.navLink}>
+          Contact
+        </a>
+      </div>
+      <div>
+        <a href="#" className={styles.navLink}>
+          GitHub
+        </a>
+        <a href="#" className={styles.navLink}>
+          Linkedin
+        </a>
+        <a href="#" className={styles.navLink}>
+          Blog
+        </a>
       </div>
     </nav>
   );
