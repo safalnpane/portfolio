@@ -33,3 +33,9 @@
   color: grey;
   margin: 0;
 }
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}

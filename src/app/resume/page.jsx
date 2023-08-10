@@ -2,6 +2,7 @@
 
 import Education from "./education";
 import Work from "./Work";
+import Skill from "./Skill";
 import styles from "./resume.module.css";
 
 export default function Resume() {
@@ -22,11 +23,9 @@ export default function Resume() {
   ];
 
   const skillsAndTools = [
-    "Git & GitHub",
-    "HTML&CSS",
-    "Javascript",
-    "Nextjs",
-    "Reactjs",
+    ["Git & GitHub", "Linux", "Docker"],
+    ["Git & GitHub", "Linux", "Docker"],
+    ["Git & GitHub", "Linux", "Docker"],
   ];
   return (
     <section className={styles.resumePage}>
@@ -50,6 +49,11 @@ export default function Resume() {
       </div>
       <div className={styles.resumeSection}>
         <h1 className={styles.resumeSectionTitle}>Skills and Tools</h1>
+        <div className={styles.skills}>
+          <Skill names={skillsAndTools[0]} />
+          <Skill names={skillsAndTools[1]} />
+          <Skill names={skillsAndTools[2]} />
+        </div>
       </div>
     </section>
   );
