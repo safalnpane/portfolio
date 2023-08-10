@@ -1,5 +1,6 @@
 // Navigation.jsx
 
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faBlog } from "@fortawesome/free-solid-svg-icons";
@@ -10,15 +11,15 @@ export default function Navigation() {
     <nav className={styles.navbar}>
       <h1 className={styles.brand}>SN</h1>
       <div>
-        <a href="#" className={styles.navLink}>
+        <Link href="/" className={styles.navLink}>
           Home
-        </a>
-        <a href="#" className={styles.navLink}>
+        </Link>
+        <Link href="/resume" className={styles.navLink}>
           Resume
-        </a>
-        <a href="#" className={styles.navLink}>
+        </Link>
+        <Link href="/contact" className={styles.navLink}>
           Contact
-        </a>
+        </Link>
       </div>
       <div>
         <a href="#" className={styles.navLink}>
