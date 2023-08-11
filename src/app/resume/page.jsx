@@ -24,8 +24,8 @@ export default function Resume() {
 
   const skillsAndTools = [
     ["Git & GitHub", "Linux", "Docker"],
-    ["Git & GitHub", "Linux", "Docker"],
-    ["Git & GitHub", "Linux", "Docker"],
+    ["Python", "Javascript", "Golang"],
+    ["AWS", "MongoDb", "MySQL"],
   ];
   return (
     <section className={styles.resumePage}>
@@ -53,6 +53,23 @@ export default function Resume() {
           <Skill names={skillsAndTools[0]} />
           <Skill names={skillsAndTools[1]} />
           <Skill names={skillsAndTools[2]} />
+        </div>
+      </div>
+      <div id="contact" className="section">
+        <h1 className="sectionTitle">Contact</h1>
+        <p className="sectionSubtitle">
+          Feel free to contact me regarding new projects and colllaboration, or
+          simply to say hello.
+        </p>
+        <div className={styles.contactContainer}>
+          <div>
+            <h2 className={styles.contactHeading}>Address</h2>
+            <h4>Sydeny, Australia</h4>
+          </div>
+          <div>
+            <h2 className={styles.contactHeading}>Email</h2>
+            <h4>contact@safalneupane.com</h4>
+          </div>
         </div>
       </div>
     </section>

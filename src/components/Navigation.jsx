@@ -17,7 +17,7 @@ export default function Navigation() {
         <Link href="/resume" className={styles.navLink}>
           Resume
         </Link>
-        <Link href="/contact" className={styles.navLink}>
+        <Link href="/resume/#contact" className={styles.navLink}>
           Contact
         </Link>
       </div>

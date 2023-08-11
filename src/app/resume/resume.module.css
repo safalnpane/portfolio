@@ -39,3 +39,12 @@
   justify-content: center;
   gap: 10vw;
 }
+
+.contactContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactHeading {
+  text-align: center;
+}
