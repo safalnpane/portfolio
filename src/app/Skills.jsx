@@ -16,6 +16,9 @@ export default function Skills() {
     "Git & GitHub",
     "AWS",
     "REST API",
+    "Linux",
+    "Docker",
+    "CI/CD",
   ];
 
   return (

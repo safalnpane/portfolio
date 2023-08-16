@@ -19,15 +19,15 @@ export default function Hero() {
             <span className={styles.highlight}>Fullstack developer</span>.
           </h1>
           <p className={styles.heroSubtitle}>
-            I&apos;m a Full-stack developer based in Sydney, Australia. I have 3
+            I&apos;m a Full-stack developer based in Sydney, Australia. I have 5
             years of commercial experience and I specialize in creating web
             apps. I&apos;m open for intresting projects and new opportunities.
           </p>
           <div className={styles.buttons}>
-            <a href="#" className="button">
+            <a href="/resume#contact" className="button">
               Contact Me
             </a>
-            <a href="#" className={"button " + styles.resumeButton}>
+            <a href="/resume" className={"button " + styles.resumeButton}>
               My Resume
             </a>
           </div>

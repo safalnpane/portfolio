@@ -9,31 +9,60 @@ export default function Resume() {
   const educations = [
     {
       title: "Bachelor of Information Technology",
-      where: "Federation University",
-      graduation: "2017 - 2021",
+      where: "King's Own Institute",
+      graduation: "2017 - 2020",
     },
   ];
 
   const works = [
     {
-      title: "Web developer",
-      where: "Aspeed",
-      duration: "2018 - 2019",
+      title: "IT Support Technician",
+      where: "Enbridge IT Services, Sydeny, NSW",
+      duration: "APR 2019 - FEB 2020",
+    },
+    {
+      title: "Penetration Tester",
+      where: "BPS Ventures, Sydney, NSW",
+      duration: "JUN 2021 - JUN 2021",
+    },
+    {
+      title: "Contract Web Developer",
+      where: "BPS Ventures, Sydeny, NSW",
+      duration: "APR 2021 - JUL 2021",
+    },
+    {
+      title: "Software Enginner",
+      where: "Nappy and Paste, Nepal",
+      duration: "SEP 2021 - FEB 2022",
+    },
+    {
+      title: "Full Stack Enginner",
+      where: "DevsEducation, Nepal",
+      duration: "JAN 2018 - Current",
     },
   ];
 
   const skillsAndTools = [
-    ["Git & GitHub", "Linux", "Docker"],
-    ["Python", "Javascript", "Golang"],
+    ["Git & GitHub", "Linux", "Docker", "CI/CD", "TDD", "NeoVim", "Tmux"],
+    [
+      "Python",
+      "Javascript",
+      "Golang",
+      "Django",
+      "Expressjs",
+      "React",
+      "Nextjs",
+    ],
     ["AWS", "MongoDb", "MySQL"],
   ];
   return (
     <section className={styles.resumePage}>
       <h1 className={styles.title}>Resume</h1>
       <p className="sectionSubtitle">
-        Experienced Web Developer with passion for creating attractive and
-        interactive websites meeting customer needs and exceeding expectations.
-        Excels in HTML, CSS, JavaScript and Python development.
+        Respectful self-motivator gifted at finding reliable solutions for
+        software issues. Experienced in Full stack development and DevOps and
+        offering skills in Python and JavaScript. Fluent in English and
+        accustomed to working with cross-cultural, global teams.
       </p>
       <div className={styles.resumeSection}>
         <h1 className={styles.resumeSectionTitle}>Education</h1>
