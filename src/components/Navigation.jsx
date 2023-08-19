@@ -22,13 +22,16 @@ export default function Navigation() {
         </Link>
       </div>
       <div>
-        <a href="#" className={styles.navLink}>
+        <a href="https://github.com/safalnpane" className={styles.navLink}>
           <FontAwesomeIcon className={styles.faicon} icon={faGithub} />
         </a>
-        <a href="#" className={styles.navLink}>
+        <a
+          href="https://www.linkedin.com/in/safal-neupane-83a23a255/"
+          className={styles.navLink}
+        >
           <FontAwesomeIcon className={styles.faicon} icon={faLinkedin} />
         </a>
-        <a href="#" className={styles.navLink}>
+        <a href="https://safalneupane.com" className={styles.navLink}>
           <FontAwesomeIcon className={styles.faicon} icon={faBlog} />
         </a>
       </div>
