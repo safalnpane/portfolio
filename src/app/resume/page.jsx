@@ -1,6 +1,6 @@
 // page.jsx
 
-import Education from "./education";
+import Education from "./Education";
 import Work from "./Work";
 import Skill from "./Skill";
 import styles from "./resume.module.css";
