@@ -23,6 +23,41 @@
 }
 
 .faicon {
-  width: 20px;
+  height: 20px;
   margin-bottom: -5px;
+}
+
+.hamburgerMenu {
+  height: 25px;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 600px) {
+  .hamburgerMenu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .navLink {
+    display: none;
+  }
+
+  .mobileMenu {
+    position: fixed;
+    top: 6vh;
+    left: 70vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    background-color: white;
+  }
+
+  .mobileLink {
+    text-decoration: none;
+    color: black;
+    padding: 10px 0 10px 0;
+  }
 }
