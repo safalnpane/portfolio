@@ -31,9 +31,14 @@
 
 .cardSubtitle {
   color: gray;
+  margin-bottom: 30px;
 }
 
-.cardBtns {
-  display: flex;
-  justify-content: space-around;
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .techUsed {
+    justify-content: center;
+  }
 }

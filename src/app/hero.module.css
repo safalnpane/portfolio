@@ -35,3 +35,27 @@
 .buttons {
   margin-top: 30px;
 }
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroImage {
+    height: 250px;
+    width: 200px;
+  }
+
+  .heroText {
+    text-align: center;
+  }
+  .heroHeading {
+    font-size: 35px;
+  }
+  .highlight {
+    font-size: 31px;
+  }
+}

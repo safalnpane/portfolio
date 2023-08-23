@@ -23,14 +23,9 @@ export default function Card({ project }) {
         ))}
       </div>
       <p className={styles.cardSubtitle}>{project.description}</p>
-      <div className={styles.cardBtns}>
-        <a className="button" href="#">
-          Preview
-        </a>
-        <a className="button" href="#">
-          GitHub
-        </a>
-      </div>
+      <a className="button" href="#">
+        Read More
+      </a>
     </div>
   );
 }
