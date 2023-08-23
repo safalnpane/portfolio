@@ -59,3 +59,16 @@
     font-size: 31px;
   }
 }
+
+@media only screen and (max-width: 940px) and (min-width: 768px) {
+  .heroImage {
+    width: 300px;
+    height: 400px;
+  }
+  .heroHeading {
+    font-size: 33px;
+  }
+  .highlight {
+    font-size: 28px;
+  }
+}
