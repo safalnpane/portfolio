@@ -24,7 +24,7 @@ export default function Work() {
       ],
     },
     {
-      imageUrl: "/aspeed.png",
+      imageUrl: "/sample-project.jpg",
       name: "Tasky",
       description:
         "Task management, chat, and tracking platform for a manufacturing plant. With admin and staff management.",
@@ -39,18 +39,25 @@ export default function Work() {
       ],
     },
     {
-      imageUrl: "/heroImage.jpeg",
+      imageUrl: "/lockpick-games.png",
       name: "Lockpick Games",
       description:
         "Server creation and deployment for hosting games. A Python script to automate web-based game hosting in AWS environment.",
       techUsed: ["Python", "AWS", "REST API", "Linux"],
     },
     {
-      imageUrl: "/heroImage.jpeg",
+      imageUrl: "/portfolio.png",
       name: "Portfolio",
       description:
         "My portfolio site to showcase my skills and projects. This project was created using NextJs version 13.",
       techUsed: ["NextJs", "HTML&CSS"],
+    },
+    {
+      imageUrl: "/taski.png",
+      name: "Taski",
+      description:
+        "Minimalist todo app built with Nextjs and expressjs. I used MongoDb for database.",
+      techUsed: ["NextJs", "HTML&CSS", "ExpressJs", "REST API"],
     },
   ];
 

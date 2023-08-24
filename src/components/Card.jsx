@@ -11,7 +11,7 @@ export default function Card({ project }) {
         src={project.imageUrl}
         alt="Project image"
         height="250"
-        width="250"
+        width="350"
         className={styles.image}
       />
       <h1 className={styles.cardTitle}>{project.name}</h1>
