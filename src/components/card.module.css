@@ -1,7 +1,7 @@
 /* card.module.css */
 
 .card {
-  width: 30vw;
+  width: 40%;
   margin-top: 20px;
 }
 
@@ -34,11 +34,32 @@
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .card {
     width: 100%;
   }
   .techUsed {
     justify-content: center;
+  }
+  .image {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .card {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .image {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .card {
+    width: 25%;
   }
 }

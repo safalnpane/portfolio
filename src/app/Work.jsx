@@ -62,7 +62,7 @@ export default function Work() {
   ];
 
   return (
-    <section className="section">
+    <section style={{ width: "90%", margin: "0 auto" }}>
       <h1 className="sectionTitle">Work</h1>
       <p className="sectionSubtitle">
         Check my personal and professional projects. If you have any questions
