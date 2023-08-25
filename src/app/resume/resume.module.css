@@ -50,8 +50,14 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .resumePage {
+    width: 80%;
+  }
   .resumeSectionTitle {
-    width: 70%;
+    font-size: 30px;
+  }
+
+  .resumeSectionTitle {
     font-size: 20px;
   }
 }
