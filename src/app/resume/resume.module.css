@@ -20,7 +20,7 @@
   background-color: black;
   color: white;
   text-align: center;
-  width: 40%;
+  width: 50%;
   font-size: 25px;
   margin: 0 auto;
 }
@@ -47,4 +47,11 @@
 
 .contactHeading {
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .resumeSectionTitle {
+    width: 70%;
+    font-size: 20px;
+  }
 }
