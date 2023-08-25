@@ -22,6 +22,7 @@ export default function Work() {
         "TailwindCSS",
         "REST API",
       ],
+      link: "https://aspeed.devseducation.com",
     },
     {
       imageUrl: "/sample-project.jpg",
@@ -37,6 +38,7 @@ export default function Work() {
         "Bootstrap",
         "REST API",
       ],
+      link: null,
     },
     {
       imageUrl: "/lockpick-games.png",
@@ -44,6 +46,7 @@ export default function Work() {
       description:
         "Server creation and deployment for hosting games. A Python script to automate web-based game hosting in AWS environment.",
       techUsed: ["Python", "AWS", "REST API", "Linux"],
+      link: "https://lockpick.games",
     },
     {
       imageUrl: "/portfolio.png",
@@ -51,6 +54,7 @@ export default function Work() {
       description:
         "My portfolio site to showcase my skills and projects. This project was created using NextJs version 13.",
       techUsed: ["NextJs", "HTML&CSS"],
+      link: "/",
     },
     {
       imageUrl: "/taski.png",
@@ -58,6 +62,7 @@ export default function Work() {
       description:
         "Minimalist todo app built with Nextjs and expressjs. I used MongoDb for database.",
       techUsed: ["NextJs", "HTML&CSS", "ExpressJs", "REST API"],
+      link: "https://github.com/safalnpane/taski",
     },
   ];
 

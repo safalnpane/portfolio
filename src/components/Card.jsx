@@ -23,8 +23,11 @@ export default function Card({ project }) {
         ))}
       </div>
       <p className={styles.cardSubtitle}>{project.description}</p>
-      <a className="button" href="#">
-        Read More
+      <a
+        href={project.link}
+        className={project.link ? "button" : styles.disabledBtn}
+      >
+        View Project
       </a>
     </div>
   );
